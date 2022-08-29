@@ -1,0 +1,185 @@
+body{
+    background-image: url(img/sfondo.jpg)
+}
+#logo{
+    margin-right: 20px;
+}
+.navbar{
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.container-fluid{
+    padding-left: 0px;
+    background-color: #f8f9fa;
+}
+.nav-item a{
+    font-size: 22px;
+}
+.nav-item a:hover{
+    color: rgb(0, 87, 25);
+}
+#active{
+    color: rgb(0, 87, 25);
+    font-weight: bold;
+}
+#titolo{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    font-family: serif;
+}
+#io_cv{
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: right;
+    height: 20%;
+    border: 1px solid black;
+}
+#box-cv{
+    height: 1200px;
+    width: 1650px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.774);
+}
+#cv-intro{
+    text-align: left;
+    padding: 30px 80px;
+    font-family: sans-serif;
+}
+.riga{
+    width: 1500px;
+    margin: 0 auto;
+}
+.due-colonne{
+    width: 1650px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.titoletto{
+    float: left;
+    padding: 0px 80px;
+}
+.competenze{
+    width: 500px;
+    margin-right: 50px;
+    float: left;
+    padding-left: 30px;
+    border-left: 2px solid black;
+}
+ul{
+    list-style-type: square;
+}
+/*VISUALIZZAZIONE DA LAPTOP*/
+@media (max-width: 1800px) {
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+}
+
+/*VISUALIZZAZIONE DA TABLET*/
+@media (max-width: 980px) {
+    #logo{
+        margin-right: 15px;
+    }
+    .navbar-brand{
+        margin-left: -10px;
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    #box-cv{
+        width: 705px;
+        height: 2100px;
+    }
+    .titoletto{
+        float: none;
+        text-align: center;
+    }
+    .due-colonne{
+        width: 355px;
+        margin-left: 10px;
+    }
+    .competenze{
+        float: none;
+        margin-top: 50px;
+        width: 325px;
+    }
+    #io_cv{
+        height: 10%;
+        margin-bottom: 20px;
+        
+    }
+    #titolo{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .riga{
+        width: 355px;
+    }
+    #cv-intro{
+        padding: 30px 40px;
+    }
+}
+
+/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
+@media (max-width: 767px) {
+
+
+}
+
+/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
+@media (max-width: 480px) {
+
+    #logo{
+        margin-right: 15px;
+    }
+    .navbar-brand{
+        margin-left: -10px;
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    #box-cv{
+        width: 355px;
+        height: 2700px;
+    }
+    .titoletto{
+        float: none;
+    }
+    .due-colonne{
+        width: 355px;
+        margin-left: 10px;
+    }
+    .competenze{
+        float: none;
+        margin-top: 50px;
+        width: 325px;
+    }
+    #io_cv{
+        height: 10%;
+        margin-bottom: 20px;
+        
+    }
+    #titolo{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .riga{
+        width: 355px;
+    }
+    #cv-intro{
+        padding: 30px 40px;
+    }
+}
