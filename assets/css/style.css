@@ -149,8 +149,8 @@ p{
     .bio_cont{
         width: 395px;
         height: 870px;
-        margin: 0 auto;
         margin-right: 0px;
+        margin-top: -10px;
     }
     #io_foto{
         height: 220px;
