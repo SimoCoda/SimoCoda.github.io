@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/sfondo.jpg");
+    background-image: url("assets/social/img/sfondo.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -61,6 +61,16 @@ p{
     .navbar-toggler{
         margin: 0 auto;
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    .endBar{
+        height: 700px;
     }
 }
 

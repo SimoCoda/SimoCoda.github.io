@@ -1,5 +1,5 @@
 body{
-    background-image: url(img/sfondo.jpg)
+    background-image: url(assets/cv/img/sfondo.jpg);
 }
 #logo{
     margin-right: 20px;
@@ -79,6 +79,55 @@ ul{
     .navbar-toggler{
         margin: 0 auto;
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #logo{
+        margin-right: 15px;
+    }
+    .navbar-brand{
+        margin-left: -10px;
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    #box-cv{
+        width: 1350px;
+        height: 1100px;
+        margin: 80px auto;
+    }
+    .titoletto{
+        float: none;
+        text-align: center;
+    }
+    .due-colonne{
+        width: 1250px;
+        margin-left: 10px;
+        margin: auto;
+    }
+    .competenze{
+        margin-top: 50px;
+        width: 550px;
+    }
+    #io_cv{
+        height: 17%;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    #titolo{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .riga{
+        width: 1270px;
+        margin: 0 auto;
+    }
+    #cv-intro{
+        padding: 30px 40px;
     }
 }
 

@@ -93,6 +93,31 @@ p{
     }
 }
 
+@media (max-width: 1440px) {
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    #io_foto{
+        height: 360px;
+        margin-right: 70px;
+        margin-top: 170px;
+        
+    }
+    #biografia{
+        height: 640px;
+        width: 650px;
+        margin: 70px auto;
+        float: right;
+    }
+    .mia_bio{
+        font-size: 16px;
+    }
+    .bio_cont{
+        width: 1440px;
+    }
+}
+
 /*VISUALIZZAZIONE DA TABLET*/
 @media (max-width: 980px) {
     #logo{

@@ -24,7 +24,7 @@
     margin: auto;
     height: 930px;
     padding-top: 10px;
-    background-image: url("img/musica_sfondo2.png");
+    background-image: url("assets/hobby/img/musica_sfondo2.png");
     background-size: cover;
 }
 #io_pallavolo{
@@ -80,6 +80,32 @@ h3{
         margin: auto;
         margin-left: 0px;
         float: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navbar-toggler{
+        margin: 0 auto;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    #io_pallavolo{
+        height: 350px;
+        margin: 250px auto;
+    }
+    #hobby{
+        height: 750px;
+        width: 760px;
+        margin: auto;
+        margin-top: 70px;
+        margin-left: 0px;
+        float: left;
+        padding-top: 20px;
+    }
+    .hobby_cont{
+        width: 1440px;
+        height: 900px;
+        padding-bottom: 0px;
     }
 }
 
