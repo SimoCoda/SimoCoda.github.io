@@ -24,7 +24,7 @@
     margin: auto;
     height: 930px;
     padding-top: 10px;
-    background-image: url("assets/hobby/img/musica_sfondo2.png");
+    background-image: url("../hobby/img/musica_sfondo2.png");
     background-size: cover;
 }
 #io_pallavolo{
