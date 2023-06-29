@@ -14,7 +14,8 @@
         emailjs.init("E9ilGKyNQz6AbI6TY");
         })();
 
-        function sendEmail(parmas) {
+        function 
+        sendEmail(parmas) {
             var tempParams = {
                 nome: document.getElementById("nome").value,
                 cognome: document.getElementById("cognome").value,
@@ -25,8 +26,7 @@
             emailjs.send('gmail', 'template_5ps38v4', tempParams)
             .then(function(res){
                 console.log("success", res.status);   
-            })
-            
+            })   
         }
 
     </script>
